@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Glyphter';
+  src: url('../font/Glyphter.eot');
+  src: url('../font/Glyphter.eot?#iefix') format('embedded-opentype'),
+  url('../font/Glyphter.woff') format('woff'),
+  url('../font/Glyphter.ttf') format('truetype'),
+  url('../font/Glyphter.svg#Glyphter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class*='icon-']:before{
+  display: inline-block;
+  font-family: 'Glyphter';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+.icon-sag:before{content:'\0041';}
+.icon-sol:before{content:'\0042';}
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../font/Lato-Regular.eot');
+  src: url('../font/Lato-Regular.woff') format('woff'),
+  url('../font/Lato-Regular.ttf') format('truetype'),
+  url('../font/Lato-Regular.svg#Lato-Regular') format('svg'),
+  url('../font/Lato-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('../font/Lato-Bold.eot');
+  src: url('../font/Lato-Bold.woff') format('woff'),
+  url('../font/Lato-Bold.ttf') format('truetype'),
+  url('../font/Lato-Bold.svg#Lato-Bold') format('svg'),
+  url('../font/Lato-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Gotham-Black_TR';
+  src: url('../font/Gotham-Black_TR.eot');
+  src: url('../font/Gotham-Black_TR.eot?#iefix') format('embedded-opentype');
+  src: url('../font/GothamBlack.woff') format('woff'),
+  url('../font/GothamBlack.ttf') format('truetype'),
+  url('../font/GothamBlack.svg#GothamBlack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gotham-Bold_TR';
+  src: url('../font/Gotham-Bold_TR_0.eot');
+  src: url('../font/Gotham-Bold_TR_0.eot?#iefix') format('embedded-opentype');
+
+  src: url('../font/GothamBold.woff') format('woff'),
+  url('../font/GothamBold.ttf') format('truetype'),
+  url('../font/GothamBold.svg#GothamBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Light_TR';
+  src: url('../font/Gotham-Light_TR.eot');
+  src: url('../font/Gotham-Light_TR.eot?#iefix') format('embedded-opentype');
+  src: url('../font/GothamLight.woff') format('woff'),
+  url('../font/GothamLight.ttf') format('truetype'),
+  url('../font/GothamLight.svg#GothamLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Gotham-Medium_TR';
+  src: url('../font/Gotham-Medium_TR.eot');
+  src: url('../font/Gotham-Medium_TR.eot?#iefix') format('embedded-opentype');
+  src: url('../font/GothamMedium.woff') format('woff'),
+  url('../font/GothamMedium.ttf') format('truetype'),
+  url('../font/GothamMedium.svg#GothamMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'GothamNarrow-Bold';
+  src: url('../font/GothamNarrow-Bold.eot');
+  src: url('../font/GothamNarrow-Bold.woff') format('woff'),
+  url('../font/GothamNarrow-Bold.ttf') format('truetype'),
+  url('../font/GothamNarrow-Bold.svg#GothamNarrow-Bold') format('svg'),
+  url('../font/GothamNarrow-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gotham-XLight_TR';
+  src: url('../font/Gotham-XLight_TR.eot');
+  src: url('../font/Gotham-XLight_TR.eot?#iefix') format('embedded-opentype');
+  src: url('../font/GothamExtraLight.woff') format('woff'),
+  url('../font/GothamExtraLight.ttf') format('truetype'),
+  url('../font/GothamExtraLight.svg#GothamExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

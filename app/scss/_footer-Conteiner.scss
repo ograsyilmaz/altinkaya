@@ -1,0 +1,154 @@
+.footer-Conteiner{
+
+.foot-menu{
+  height: 69px;
+  background-color: #f3f3f3;
+  .footer-up{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #dadada;
+    margin-top: 17px;
+    margin-left: 75px;
+    text-align: center;
+    transition: background 0.5s;
+    &:hover {
+      background-color:$Bblack;
+      a{
+        i{
+          color:$Pwhite;
+        }
+      }
+    }
+    a{
+      i{
+      margin-top: 8px;
+
+
+    }}
+
+  }
+  .foot-wmenu{
+    float: right;
+
+    ul{
+      list-style-type:none;
+
+      margin-top: 31px ;
+      margin-bottom: 10px;
+      li{
+        float: left;
+        margin-right: 27px;
+        cursor: pointer;
+        margin-bottom: 5px;
+      }
+
+        a{
+          text-decoration: none;
+          color: #262626;
+          text-transform: uppercase;
+          font-family:Gotham-Medium_TR;
+
+          font-size: 12px;
+          &:hover{
+            border-bottom: 2px solid $Pgold;
+            transition: border-bottom 0.2s;
+            padding-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .footersos{
+    .fikirhakkı{
+      margin-top: 35px;
+      margin-left: 75px;
+      p{
+        text-decoration: none;
+        color: #262626;
+        text-transform: uppercase;
+        font-family:Gotham-Medium_TR;
+        font-size: 12px;
+      }
+    }
+    .footsos{
+      margin-top: 21px;
+      margin-right: 25px;
+
+      .f-sosyal{float: left;
+      width: 31px;
+      height: 32px;
+        text-align: center;
+        margin-right: 35px;
+      background-color: $fblack;
+        -moz-border-radius:75px;
+        -webkit-border-radius: 75px;
+        &:hover {
+          background-color:$facebook;
+
+        }
+a{
+  i{
+    color: $Fwhite;
+    height: 20px;
+    margin-top: 25%;
+  }
+}
+      }
+      .i-sosyal{float: left;
+        width: 31px;
+        height: 32px;
+        text-align: center;
+        margin-right: 35px;
+        background-color: $fblack;
+        -moz-border-radius:75px;
+        -webkit-border-radius: 75px;
+        &:hover {
+          background-color:$instagram;
+
+        }
+
+
+        a{
+          i{
+            color: $Fwhite;
+            height: 20px;
+            margin-top: 25%;
+          }
+        }
+      }
+      .t-sosyal{float: left;
+        width: 31px;
+        height: 32px;
+        text-align: center;
+
+        background-color: $fblack;
+        -moz-border-radius:75px;
+        -webkit-border-radius: 75px;
+
+        &:hover {
+          background-color:$twitter;
+
+        }
+
+        a{
+          i{
+            color: $Fwhite;
+            height: 20px;
+            margin-top: 25%;
+          }
+        }
+
+      }
+    }
+  }
+  .foot-res{height:53px;
+
+margin-top: 90px;
+    background: url("http://i.hizliresim.com/9oZ5EZ.jpg") no-repeat center top scroll;
+  }
+
+}

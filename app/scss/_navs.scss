@@ -1,0 +1,59 @@
+.navbar-inverse{
+  background-color:$Pwhite;
+  border-color: $Pwhite;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+
+
+
+
+.navs {
+  .logo {
+    img {
+      margin-top: 12px;
+      margin-left: 75px;
+      height: 100px;
+      width: 158px;
+    }
+
+  }
+
+
+  .navbar-default .navbar-nav>li>a,.navbar-inverse .navbar-nav>li>a{
+    color:#ffffff;
+  }
+
+
+  .primary_nav {
+    margin-top: 16px;
+    margin-left: 75px;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+
+      padding: 0px 12px;
+
+      a {
+        text-decoration: none;
+
+        text-transform: uppercase;
+        font-family: Gotham-Medium_TR;
+        font-size: 13px;
+        color:#ffffff;
+        &:hover {
+          border-bottom: 2px solid $Pgold;
+            padding-bottom: 11px;
+
+        }
+      }
+    }
+  }
+
+}

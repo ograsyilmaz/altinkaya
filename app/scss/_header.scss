@@ -1,0 +1,37 @@
+.main-header{
+ // background: url("http://i.hizliresim.com/D2qz96.jpg") no-repeat center top scroll;
+
+  max-height: 920px;
+  .logo{
+    img{margin-top: 33px;
+      margin-left: 75px;}
+
+   
+  }
+
+.primary_nav{
+  margin-top: 35px;
+ // margin-right: 75px;
+}
+
+  ul{
+    list-style-type:none;
+
+    li{
+
+      padding: 0px 24px;
+
+      a{
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family:Gotham-Medium_TR;
+        font-size: 13px;
+        &:hover{
+          border-bottom: 2px solid $Pgold;
+          padding-bottom: 11px;
+        }
+      }
+    }
+  }
+}

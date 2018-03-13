@@ -1,0 +1,139 @@
+@mixin imgopack($opacks,$opacke) {
+  background:#000000;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:$opacks;
+  filter:alpha(opacity=$opacke);
+}
+
+@mixin Fonttip($color,$fonailesi,$fontsize) {
+  color:$color;
+  font-family:$fonailesi ;
+  font-size:($fontsize)+px ;
+
+}
+
+.post{
+  position: absolute;
+  z-index: 2;
+}
+
+
+.imgopack66{
+
+  @include imgopack(0.66,66);
+}
+
+.imgopack72{
+
+  @include imgopack(0.72,72);
+}
+
+
+.imgopack45{
+
+  @include imgopack(0.45,45);
+}
+.ayrac{
+  height: 34px;
+  width: 1px;
+  background-color:$Pwhite;
+  display: inline-block;
+  position: absolute;
+}
+
+.text-media {
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: auto;
+display: inline-block;
+}
+
+.luxwork .markaluxwork{
+  margin-right: 10px;
+  display: inline-block;
+  @include Fonttip($Pwhite,Gotham-XLight_TR,21);
+  line-height: 30px;
+
+}
+.luxwork .projeluxwork{
+  margin-left: 13px;
+  display: inline-block;
+  @include Fonttip($Pwhite,GothamNarrow-Bold,21);
+  font-weight: bold;
+  line-height: 30px;
+
+}
+
+.markagenaral{
+   margin-right: 10px;
+   display: inline-block;
+   @include Fonttip($Pwhite,Gotham-XLight_TR,15);
+  line-height: 30px;
+ }
+
+
+.projegenaral{
+  margin-left: 13px;
+  display: inline-block;
+  @include Fonttip($Pwhite,Gotham-Bold_TR,18);
+  line-height: 30px;
+
+}
+
+
+
+.markagenaral15{
+  margin-right: 10px;
+  display: inline-block;
+  @include Fonttip($Pwhite,Gotham-XLight_TR,15);
+  line-height: 30px;
+}
+
+
+.projegenaral15{
+  margin-left: 13px;
+  display: inline-block;
+  @include Fonttip($Pwhite,GothamNarrow-Bold,15);
+  line-height: 30px;
+  font-weight: bold;
+}
+
+p.baslik{
+  @include Fonttip($Pwhite,GothamNarrow-Bold,15);
+  font-weight: bold;
+}
+
+p.altbaslik{
+  @include Fonttip($Pwhite,Gotham-XLight_TR,13);
+}
+
+p.bbaslik{
+  @include Fonttip($Bblack,GothamNarrow-Bold,15);
+  font-weight: bold;
+}
+
+p.baltbaslik{
+  @include Fonttip($Bblack,Gotham-XLight_TR,13);
+}
+
+
+
+
+
+p.text-ana{
+  @include Fonttip($Pgold,Gotham-Medium_TR,15);
+}
+
+p.text-marka{
+  @include Fonttip($Pblack,Gotham-XLight_TR,42);
+}
